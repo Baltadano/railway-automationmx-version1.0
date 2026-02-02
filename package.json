@@ -2,7 +2,6 @@
   "name": "plataforma_cursos",
   "version": "0.1.0",
   "proxy": "http://localhost:5678",
-  
   "private": true,
   "dependencies": {
     "@n8n/chat": "^0.50.0",
@@ -10,6 +9,7 @@
     "@testing-library/jest-dom": "^6.6.4",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.8",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.7.1",
@@ -46,8 +46,5 @@
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
-
-  },
-  "proxy": "http://localhost:5678"
-  
+  }
 }
