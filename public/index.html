@@ -25,10 +25,47 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- ESTE ES MI CHAT PERZONALIZADO CON WEEBHOOK-->
+
+
+
+
+
+
+    <!-- ESTO ES PARA EL CHAT DE N8N CON WEEBHOOK INCLUIDO --> 
+    
+    
+        <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'http://localhost:5678/webhook/085176c8-621a-42a1-8818-8ae4274deb08/chat',
+    initialMessages: [
+		'Hola!',
+		'Mi nombre es Nathan. Deseas agendar una reunion?'
+	],
+    i18n: {
+              en: {
+                title:'Bienvenido!!!',
+                subtitle: 'Comienza. Estamos para ayudarte 24/7'
+              },
+    },
+	});
+</script>
+
+
+
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!--Start of Tawk.to Script-->
+
+<!--End of Tawk.to Script-->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -1,0 +1,9 @@
+.App-blue {
+  color: #61dafb;
+}
+.elemento-con-fondo{
+  position: absolute;
+  background-size: cover;
+  opacity: 0.5; /* Ajusta el valor para la opacidad (0 es totalmente transparente, 1 es totalmente opaco) */
+  z-index: -1; /* Coloca el pseudoelemento detrás del contenido principal */
+}
